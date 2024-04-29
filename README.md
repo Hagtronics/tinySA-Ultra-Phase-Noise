@@ -8,14 +8,22 @@ blah, blah
 blah, blah 
 # Usage
    Your measured signal level should be < 0 dBm and > -30 dBm. 
+   
    Power on tinySA Ultra. 
+   
    Use the menu item 'Preset' -> 'Load Startup' to preset the tinySA Ultra. 
+   
    Connect your signal to be measured to the tinySA Ultra. 
+   
    Set the center frequency to the signal you wish to measure. 
+   
    Set the span to 2 kHz. 
+   
    Wait a few sweeps until the AGC settles and the attenuator is set correctly. 
+   
    Set the 'App Control Settings' on the Phase Noise GUI as desired for the run. 
    When ready, press the 'Run' button on the GUI. 
+   
    Program will pop a Matplotlib Plot when the measurement is complete. 
    Close the Matplotlib plot window before starting another run. 
   
