@@ -28,12 +28,12 @@ blah, blah
    This way, every time you make a run a new CSV file will be created with a unique name. 
   
  Test time notes: 
- < 800 MHz center frequency, 
+   Less than 800 MHz center frequency, 
    AVERAGE = 'off', Test time = 1 minute 
    AVERAGE = 'aver4', Test time = 3 minutes 
    AVERAGE = 'aver16', Test time = 11 minutes 
  
- > 800 MHz center frequency, 
+   More than 800 MHz center frequency, 
    AVERAGE = 'off', Test time = 2 minutes 
    AVERAGE = 'aver4', Test time = 6 minutes 
    AVERAGE = 'aver16', Test time = 23 minutes 
