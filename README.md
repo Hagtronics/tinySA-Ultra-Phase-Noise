@@ -31,6 +31,7 @@ blah, blah
    We are measuring noise, so for the best plot quality AVERAGE = 'aver16' is suggested. 
    If your center frequency drifts a 'small' amount then set RECENTER = True, 
    to recenter the center frequency after each offset band is measured. 
+   
    A CSV file of the measured data will automatically be put in the directory where you ran 
    this program. The CSV file will be named the Plot Title with the current date and time added. 
    This way, every time you make a run a new CSV file will be created with a unique name. 
