@@ -27,7 +27,8 @@ blah, blah
    this program. The CSV file will be named the Plot Title with the current date and time added. 
    This way, every time you make a run a new CSV file will be created with a unique name. 
   
- Test time notes: 
+ Test time notes:
+   
    Less than 800 MHz center frequency,  
     AVERAGE = 'off', Test time = 1 minute  
     AVERAGE = 'aver4', Test time = 3 minutes  
