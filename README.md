@@ -1,4 +1,4 @@
-# tinySA Ultra Phase Noise Measurement App in Python
+# tinySA Ultra - Phase Noise Measurement App in Python
  
 # Introduction
 blah, blah
