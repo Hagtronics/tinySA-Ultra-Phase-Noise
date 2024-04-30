@@ -8,7 +8,7 @@ The tinySA Ultra actually works enough like a regular spectrum analyzer that I d
 ![Figure 4](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure4.PNG?raw=true)
 **Figure 2 - A typical phase noise measurement made with the phase noise app. This is a plot of the tinySA Ultras built in 30 MHz signal generator. The 'Orange' trace above is a curve fit 'Smoothed' representation of the average phase noise measured.**  
 # tinySA Ultra Implementation
-To implement this solution, I measured the 200, 1000 and 3000 Hz resolution bandwidth filters to determine their actual Equivalent Noise Bandwidth (EQNBW). These measurements were then used to convert the measurement in dB to a measurement of noise in dB/Hz. Since these filters are implemented in the tinySA Ultra as digital filters, the results should be repeatable between devices. The application measures the following band sweeps and then merges all the data into one continuous 1 kHz to 1 MHz data plot for display and saving to a CSV file.    
+To implement this solution, I measured the 200, 1000 and 3000 Hz resolution bandwidth filters (RBW) to determine their actual Equivalent Noise Bandwidth (EQNBW). These measurements were then used to convert the measurement in dB to a measurement of noise in dB/Hz. Since these filters are implemented in the tinySA Ultra as digital filters, the results should be repeatable between devices. The application measures the following band sweeps and then merges all the data into one continuous 1 kHz to 1 MHz data plot for display and saving to a CSV file.    
    
 Sweep ranges and RBW's used for the sweeps,  
 *1k - 3k       = 200Hz RBW  
