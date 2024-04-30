@@ -1,7 +1,7 @@
 # tinySA Ultra - Phase Noise Measurement App in Python
  
 # Introduction
-The tinySA Ultra https://www.tinysa.org/wiki/ actually works enough like a regular spectrum analyzer that I decided to write a SSB Phase Noise Measurement Application for it in Python. This implementation is based on some excellent old Hewlett-Packard Application Notes especially AN270-2 [1].
+The tinySA Ultra ( https://www.tinysa.org/wiki/ ) actually works enough like a regular spectrum analyzer that I decided to write a SSB Phase Noise Measurement Application for it in Python. This implementation is based on some excellent old Hewlett-Packard Application Notes especially AN270-2 [1].
 ![Figure 1](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure1.PNG?raw=true)   
 **Figure 1 - The tinySA Ultra phase noise measurement app main GUI.**  
 
