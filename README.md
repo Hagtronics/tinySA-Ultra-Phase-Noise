@@ -79,10 +79,10 @@ The oscillator being measured can't drift too much during the test, likewise lar
 ![figure 1a](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure1a.PNG?raw=true)
 **Figure 3 - When running, the Phase Noise App provides a status bar that shows what it is doing. Status messages are also written to the console window as shown above.**  
 ![figure 2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure2.PNG?raw=true)  
-**Figure 4 - Measurement of a high performance YIG based Signal Generator at 30 MHz. This signal Generator has a phase noise below -100 dBc/Hz at 1 kHz and dropping to -140 dBc/Hz at 1 MHz offset, so this is essentially a plot of the tinySA Ultras LO Phase Noise.** 
+**Figure 4 - Measurement of a high performance YIG based Signal Generator at 30 MHz. This signal Generator has a phase noise below -110 dBc/Hz at 1 kHz and dropping to -140 dBc/Hz at 1 MHz offset, so this is essentially a plot of the tinySA Ultras LO Phase Noise.** 
 
 ![figure 3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure3.PNG?raw=true)
-**Figure 5 - Measurement of a high performance YIG based Signal Generator at 500 MHz. This signal Generator has a phase noise below -100 dBc/Hz at 1 kHz and dropping to -140 dBc/Hz at 1 MHz offset, so this is essentially a plot of the tinySA Ultras LO Phase Noise.**   
+**Figure 5 - Measurement of a high performance YIG based Signal Generator at 500 MHz. This signal Generator has a phase noise below -110 dBc/Hz at 1 kHz and dropping to -140 dBc/Hz at 1 MHz offset, so this is essentially a plot of the tinySA Ultras LO Phase Noise.**   
 # Requirements
 Application written in Python 3.12.1  
 Libraries used,  
