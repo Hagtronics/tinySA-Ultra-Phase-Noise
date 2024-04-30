@@ -3,7 +3,7 @@
 # Introduction
 The tinySA Ultra actually works enough like a regular spectrum analyzer that I decided to write a Phase Noise Measurement Application for it in Python. This implementation is based on some excellent old Hewlett-Packard Application Notes especially AN270-2 [1].
 ![Figure 1](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure1.PNG?raw=true)   
-Figure 1 - The tinySA Ultra phase noise measurement app main GUI.  
+**Figure 1 - The tinySA Ultra phase noise measurement app main GUI.**  
 
 ![Figure 4](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure4.PNG?raw=true)
 Figure 2 - A typical phase noise measurement made with the phase noise app. This is a plot of the tinySA Ultras built in 30 MHz signal generator. The 'Orange' trace above is a curve fit 'Smoothed' representation of the average phase noise measured.  
