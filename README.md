@@ -60,9 +60,9 @@ Libraries used,
   * numpy==1.26.2
   * matplotlib==3.8.2
 # References
-[1] https://www.hpmemoryproject.org/technics/bench/3048/bench_pn_docs.htm
-[3] Python code compiled with: pyinstaller
-[x] Phase noise beyond noise floor
+[1] https://www.hpmemoryproject.org/technics/bench/3048/bench_pn_docs.htm  
+[2] Python code compiled with: pyinstaller  
+[3] https://www.edn.com/measuring-small-signals-accurately-a-practical-guide   
 # Special Thanks To
 * Guido for inventing Python.
 * Hewlett-Packard Company (Pre 1999) for teaching me all things RF.
