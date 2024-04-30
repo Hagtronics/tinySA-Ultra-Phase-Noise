@@ -1,7 +1,7 @@
 # tinySA Ultra - Phase Noise Measurement App in Python
  
 # Introduction
-The tinySA Ultra actually works enough like a regular spectrum analyzer that I decided to write a Phase Noise Measurement Application for it in Python. This implementation is based on some excellent old Hewlett-Packard Application Notes especially AN270-2 [1].
+The tinySA Ultra actually works enough like a regular spectrum analyzer that I decided to write a SSB Phase Noise Measurement Application for it in Python. This implementation is based on some excellent old Hewlett-Packard Application Notes especially AN270-2 [1].
 ![Figure 1](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure1.PNG?raw=true)   
 **Figure 1 - The tinySA Ultra phase noise measurement app main GUI.**  
 
@@ -74,15 +74,15 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
 Like all master / slave devices, this app can get out of sync with the tinySA Ultra and the application can hang. The remedy for this is to power cycle the tinySA Ultra and try again.
 # Limitations 
 The implementation has a dead band between 799 MHz and 800 Mhz where measurements cannot be made. This is due to the tinySA Ultras internal measurment algorithm changing at 800 MHz.  
-The oscillator being measured can't drift too much during the test, likewise large amounts FM or AM on the oscillator under test will result in poor measurement repeatability and results. PLL locked or crystal based sources measure with much better repeatability. In this implementation, you cannot measure phase noise lower than the tinySA Ultra's intrinsic internal local oscillators phase noise, this is true for most is not all spectrum analyzer based phase noise applications. There are ways of extending the phase noise measurement range on the highest quality Spectrum Analyzers, but this is a waste of time for economy analyzers like the tinySA Ultra [3].
-# Examples
+The oscillator being measured can't drift too much during the test, likewise large amounts FM or AM on the oscillator under test will result in poor measurement repeatability and results. PLL locked or crystal based sources measure with much better repeatability. In this implementation, you cannot measure phase noise lower than the tinySA Ultra's intrinsic internal local oscillators (LO) phase noise, this is true for most is not all spectrum analyzer based phase noise applications. There are ways of extending the phase noise measurement range on the highest quality Spectrum Analyzers, but this is a waste of time for economy analyzers like the tinySA Ultra [3].
+# Example Measurements
 ![figure 1a](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure1a.PNG?raw=true)
 **Figure 3 - When running, the Phase Noise App provides a status bar that shows what it is doing. Status messages are also written to the console window as shown above.**  
 ![figure 2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure2.PNG?raw=true)  
-**Figure 4 - Measurement of a high performance YIG based Signal Generator at 30 MHz.** 
+**Figure 4 - Measurement of a high performance YIG based Signal Generator at 30 MHz. This signal Generator has a phase noise below -100 dBc/Hz from 1 kHz to 1 MHz, so this is essentially a plot of the tinySA Ultras LO Phase Noise.** 
 
 ![figure 3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure3.PNG?raw=true)
-**Figure 5 - Measurement of a high performance YIG based Signal Generator at 500 MHz.**   
+**Figure 5 - Measurement of a high performance YIG based Signal Generator at 500 MHz. This signal Generator has a phase noise below -100 dBc/Hz from 1 kHz to 1 MHz, so this is essentially a plot of the tinySA Ultras LO Phase Noise**   
 # Requirements
 Application written in Python 3.12.1  
 Libraries used,  
