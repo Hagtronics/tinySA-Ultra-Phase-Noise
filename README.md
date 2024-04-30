@@ -6,23 +6,23 @@ The tinySA Ultra actually works enough like a regular spectrum analyzer that I d
 **Figure 1 - The tinySA Ultra phase noise measurement app main GUI.**  
 
 ![Figure 4](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure4.PNG?raw=true)
-Figure 2 - A typical phase noise measurement made with the phase noise app. This is a plot of the tinySA Ultras built in 30 MHz signal generator. The 'Orange' trace above is a curve fit 'Smoothed' representation of the average phase noise measured.  
+**Figure 2 - A typical phase noise measurement made with the phase noise app. This is a plot of the tinySA Ultras built in 30 MHz signal generator. The 'Orange' trace above is a curve fit 'Smoothed' representation of the average phase noise measured.**  
 # tinySA Ultra Implementation
 To implement this solution, I measured the 200, 1000 and 3000 Hz resolution bandwidth filters to determine their Equivalent Noise Bandwidth (ENBW). These measurements were then used to convert the measurement in dB to a measurement of noise in dB/Hz. Since these filters are implemented in the tinySA Ultra as digital filters, the results should be repeatable between devices. The application measures the following band sweeps and then merges all the data into one continuous 1 kHz to 1 MHz data plot for display and saving to a CSV file.    
    
 Sweep ranges and RBW's used for the sweeps,  
-1k - 3k       = 200Hz RBW  
+*1k - 3k       = 200Hz RBW  
 3k - 10k      = 200Hz RBW  
 10k - 30k     = 200 Hz RBW  
 30k - 100k    = 200 Hz RBW  
 100k - 300k   = 1000 Hz RBW  
-300k - 1M     = 3000 Hz RBW  
+300k - 1M     = 3000 Hz RBW*  
   
 Noise Measurement Correction factor notes:  
 Actual (measured) RBW filter EQNBW factors  
-3kHz correction = 35.3 dB  
+*3kHz correction = 35.3 dB  
 1kHz correction = 30.6 dB  
-200Hz correction = 26.6 dB  
+200Hz correction = 26.6 dB*  
 # Installation
 The 'src' directory here contains all the Python files to run the application. Simply copy all the files in 'src' directory and place them on your PC somewhere. The application can be run by launching the Python main file: "tinysa_ultra_phase_noise_app.py". Note: assumes that python 3.12 is on your system path somewhere.
 
@@ -72,10 +72,10 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
 # Limitations 
 The oscillator being measured can't drift too much during the test, likewise large amounts FM or AM on the oscillator under test will result in poor measurement repeatability. PLL locked or crystal based sources measure with much better repeatability. In this implementation, you cannot measure phase noise lower than the tinySA Ultra's intrinsic LO source phase noise, this is true for most is not all spectrum analyzer based phase noise applications [x].
 ![figure 2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure2.PNG?raw=true)  
-Figure 3 - Measurement of a high performance YIG based Signal Generator at 30 MHz. 
+**Figure 3 - Measurement of a high performance YIG based Signal Generator at 30 MHz.** 
 
 ![figure 3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure3.PNG?raw=true)
-Figure 4 - Measurement of a high performance YIG based Signal Generator at 500 MHz.   
+**Figure 4 - Measurement of a high performance YIG based Signal Generator at 500 MHz.**   
 # Requirements
 Application written in Python 3.12.1  
 Libraries used,  
