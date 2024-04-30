@@ -69,13 +69,19 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
     AVERAGE = 'off', Test time = 2 minutes  
     AVERAGE = 'aver4', Test time = 6 minutes  
     AVERAGE = 'aver16', Test time = 23 minutes  
+
+# Problems / Solutions
+Like all master / slave devices, this app can get out of sync with the tinySA Ultra and the application can hang. The remedy for this is to power cycle the tinySA Ultra and try again.
 # Limitations 
-The oscillator being measured can't drift too much during the test, likewise large amounts FM or AM on the oscillator under test will result in poor measurement repeatability. PLL locked or crystal based sources measure with much better repeatability. In this implementation, you cannot measure phase noise lower than the tinySA Ultra's intrinsic LO source phase noise, this is true for most is not all spectrum analyzer based phase noise applications [x].
+The oscillator being measured can't drift too much during the test, likewise large amounts FM or AM on the oscillator under test will result in poor measurement repeatability. PLL locked or crystal based sources measure with much better repeatability. In this implementation, you cannot measure phase noise lower than the tinySA Ultra's intrinsic LO source phase noise, this is true for most is not all spectrum analyzer based phase noise applications. There are ways of extending the phase noise measurement range on the highest quality Spectrum Analyzers, but this is a waste of time for economy analyzers like the tinySA Ultra [3].
+# Examples
+![figure 1a](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure1a.PNG?raw=true)
+**Figure 3 - When running the Phase Noise App provides a status bar that shows what it is doing. Status messages are also written to the console window as shown above.**  
 ![figure 2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure2.PNG?raw=true)  
-**Figure 3 - Measurement of a high performance YIG based Signal Generator at 30 MHz.** 
+**Figure 4 - Measurement of a high performance YIG based Signal Generator at 30 MHz.** 
 
 ![figure 3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure3.PNG?raw=true)
-**Figure 4 - Measurement of a high performance YIG based Signal Generator at 500 MHz.**   
+**Figure 5 - Measurement of a high performance YIG based Signal Generator at 500 MHz.**   
 # Requirements
 Application written in Python 3.12.1  
 Libraries used,  
