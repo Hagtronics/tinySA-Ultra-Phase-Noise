@@ -53,12 +53,12 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
 # Limitations 
 The oscillator being measured can't drift too much during the test, likewise large amounts FM or AM on the oscillator under test will result in poor measurement repeatability. PLL locked or crystal based sources measure with much better repeatability. In this implementation, you cannot measure phase noise lower than the tinySA Ultra's intrinsic LO source phase noise, this is true for most is not all spectrum analyzer based phase noise applications [x].
 # Requirements
-Application written in Python 3.12.1\  
-Libraries used,\ 
-  * pyserial==3.5 \
-  * PySimpleGUI==4.60.5 \
-  * numpy==1.26.2 \
-  * matplotlib==3.8.2 \
+Application written in Python 3.12.1 
+Libraries used,
+  * pyserial==3.5
+  * PySimpleGUI==4.60.5
+  * numpy==1.26.2
+  * matplotlib==3.8.2
 # References
 [1] https://www.hpmemoryproject.org/technics/bench/3048/bench_pn_docs.htm
 [3] Python code compiled with: pyinstaller
