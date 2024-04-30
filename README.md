@@ -57,6 +57,11 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
     AVERAGE = 'aver16', Test time = 23 minutes  
 # Limitations 
 The oscillator being measured can't drift too much during the test, likewise large amounts FM or AM on the oscillator under test will result in poor measurement repeatability. PLL locked or crystal based sources measure with much better repeatability. In this implementation, you cannot measure phase noise lower than the tinySA Ultra's intrinsic LO source phase noise, this is true for most is not all spectrum analyzer based phase noise applications [x].
+![figure 2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure2.PNG?raw=true)  
+Figure 3 - Measurement of a high performance YIG based Signal Generator at 30 MHz. 
+
+![figure 3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure3.PNG?raw=true)
+Figure 4 - Measurement of a high performance YIG based Signal Generator at 500 MHz.   
 # Requirements
 Application written in Python 3.12.1  
 Libraries used,  
