@@ -51,7 +51,7 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
    Close the Matplotlib plot window before starting another run. 
   
  Notes:
-   We are measuring noise, so for the best plot quality AVERAGE = 'aver16' is suggested. 
+   We are measuring noise, so for the best plot quality set the "Trace Averaging" to 'aver16' (Averaging by 16 traces).  
    If your center frequency drifts a 'small' amount then check the "Recenter after each Sweep" button. 
    This will re-measure the signals center frequency after each offset band is measured. 
    
@@ -61,14 +61,14 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
   
  Test time notes:
    Less than 799 MHz center frequency,  
-    AVERAGE = 'off', Test time = 1 minute  
+    *AVERAGE = 'off', Test time = 1 minute  
     AVERAGE = 'aver4', Test time = 3 minutes  
-    AVERAGE = 'aver16', Test time = 11 minutes  
+    AVERAGE = 'aver16', Test time = 11 minutes*  
     
    More than 800 MHz center frequency,  
-    AVERAGE = 'off', Test time = 2 minutes  
+    *AVERAGE = 'off', Test time = 2 minutes  
     AVERAGE = 'aver4', Test time = 6 minutes  
-    AVERAGE = 'aver16', Test time = 23 minutes  
+    AVERAGE = 'aver16', Test time = 23 minutes*  
 
 # Problems / Solutions
 Like all master / slave devices, this app can get out of sync with the tinySA Ultra and the application can hang. The remedy for this is to power cycle the tinySA Ultra and try again.
