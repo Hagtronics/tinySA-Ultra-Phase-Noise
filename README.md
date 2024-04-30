@@ -52,8 +52,8 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
   
  Notes:
    We are measuring noise, so for the best plot quality AVERAGE = 'aver16' is suggested. 
-   If your center frequency drifts a 'small' amount then set RECENTER = True, 
-   to recenter the center frequency after each offset band is measured. 
+   If your center frequency drifts a 'small' amount then check the "Recenter after each Sweep" button. 
+   This will re-measure the signals center frequency after each offset band is measured. 
    
    A CSV file of the measured data will automatically be put in the directory where you ran 
    this program. The CSV file will be named the "Test Name" with the current date and time added. 
