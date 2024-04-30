@@ -2,6 +2,7 @@
  
 # Introduction
 The tinySA Ultra actually works enough like a regular spectrum analyzer that I decided to write a Phase Noise Measurement Application for it in Python. This implementation is based on some excellent old HP Application Notes especially AN270-2 [1].
+![Figure 1](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure1.PNG?raw=true)
 # tinySA Ultra Implementation
 To implement this solution, I measured the 200, 1000 and 3000 Hz resolution bandwidth filters to determine their Equivalent Noise Bandwidth (ENBW). These measurements were then used to convert the measurement in dB to a measurement of noise in dB/Hz. Since these filters are implemented in the tinySA Ultra as digital filters, the results should be repeatable between devices.
 # Installation
