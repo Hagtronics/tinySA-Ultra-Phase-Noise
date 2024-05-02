@@ -84,7 +84,7 @@ The oscillator being measured can't drift too much during the test, likewise lar
 ![figure 3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure3.PNG?raw=true)
 **Figure 5 - Measurement of a high performance YIG based Signal Generator at 500 MHz. This signal Generator has a phase noise below -110 dBc/Hz at 1 kHz and dropping to -140 dBc/Hz at 1 MHz offset, so this is essentially a plot of the tinySA Ultras LO Phase Noise.**   
 # Requirements
-Application written in Python 3.12.1  
+Application written in Python 3.12.1 (x64)  
 Libraries used,  
   * pyserial==3.5
   * PySimpleGUI==4.60.5
