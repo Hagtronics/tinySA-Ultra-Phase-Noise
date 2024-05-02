@@ -1,4 +1,4 @@
-The windows binary is hosted on Dropbox, here is a link to the exe download.  
+The windows binary is hosted on Dropbox, here is a link to the exe download. This is a 64 bit application and it has been tested on x64bit - Windows 7, 10 and 11.
 
 https://www.dropbox.com/scl/fi/xt3zc1r1geq0eav4dt7v7/tinysa_ultra_phase_noise_app.exe?rlkey=4spf5m95aimhzxoxhrdh0tvs0&st=epolcx22&dl=0  
 
