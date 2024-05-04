@@ -32,4 +32,4 @@ This guide will show you the steps to make a Phase Noise Measurement of the inte
 
 
 * For other signals you want to measure, follow the steps above except just *Zoom Into* the signal that you are measuring instead of the 30 MHz calibration signal.
-* Note: In general, it should be noted, when you have spanned in to 2 kHz (as per the step above), and you see that your signal under test is *moving around* either in Frequncy or Ampplitude you will not be able to make a very good phase noise measurement. Phase Noise Measurements require that the Signal Under Test be stable.
+* Note: In general, it should be noted, when you have spanned in to 2 kHz (as per the step above), and you see that your signal under test is *moving around* either in Frequncy or Ampplitude you will not be able to make a very good phase noise measurement. Phase Noise Measurements require that the Signal Under Test be stable especially since the Phase Noise App takes many minurtes to complete. You can correct for some *slight shift* in the center frequency by checking the *Recenter Center Frequency After Each Sweep* check box on the GUI. 
