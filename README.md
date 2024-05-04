@@ -32,6 +32,9 @@ The 'src' directory here contains all the Python files to run the application. S
 
 If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the App. This can be used by copying the EXE file from the directory 'windows-binary' to your PC and then running the file: "tinysa_ultra_phase_noise_app.exe". Note that this file can take up to 30 seconds to fully launch. Please be patient.
 ## Usage
+   Also see the step-by-step quick-start-guide here,  
+   https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/tree/main/qsg
+   
    Your measured signal level should be < 0 dBm and > -30 dBm for the best dynamic range. 
    
    Power on tinySA Ultra and connect it to your PC.
