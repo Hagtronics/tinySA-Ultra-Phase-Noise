@@ -8,6 +8,26 @@ This guide will show you the steps to make a Phase Noise Measurement of the inte
 ![screen0](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/0.bmp)  
 
   
-* From the screen manu select
+* Using a sma-sma cable, connect the CAL connector to the RF connector.  
+* From the screen manu select *Mode -> Calibration Output -> 30 MHz*.
+* From the screen manu select *Spectrum Analyzer*. The screen should look like the figure below. The marker must be on the 30 MHz peak automatically. If the marker is not on the 30 MHz peak, then reset the markers to the default setting (this should have happened when the *Preset -> Load Startup* step was done.
 
+![screen1](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/1.bmp)  
 
+* From the screen menu select *Frequency -> Center* and type in *30 M* for 30 MHz. The screen should look like the figure below, again with the marker on the 30 MHz peak.
+
+![screen2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/2.bmp)  
+  
+  
+* From the screen menu select *Frequency -> Span" and type in *2 k* for 2 kHz span. The screen should look like the figure below, again with the marker on the 30 MHz peak.
+
+![screen3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/3.bmp)  
+
+   
+* Wait for the tinySA Ultra to make a few sweeps so that the autoscale attenuator finds a solid setting.
+* You can now run the tinySA Ultra Phase Noise App (or as we say in the lab: *Let 'er rip!* ;-)
+* When the app is finished you should see a plot as shown below,
+![final](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure4.PNG)
+
+    
+* Note: In g
