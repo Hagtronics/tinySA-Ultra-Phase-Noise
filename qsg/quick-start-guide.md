@@ -20,7 +20,7 @@ This guide will show you the steps to make a Phase Noise Measurement of the inte
 ![screen2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/2.bmp)  
   
   
-* From the screen menu select *Frequency -> Span" and type in *2 k* for 2 kHz span. The screen should look like the figure below, again with the marker on the 30 MHz peak.
+* From the screen menu select *Frequency -> Span" and type in *2 k* for 2 kHz span. The screen should look like the figure below, again with the marker on (or close to) the 30 MHz peak.
 
 ![screen3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/3.bmp)  
 
