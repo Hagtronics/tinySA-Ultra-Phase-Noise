@@ -30,5 +30,6 @@ This guide will show you the steps to make a Phase Noise Measurement of the inte
 * When the app is finished you should see a plot as shown below,
 ![final](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure4.PNG)
 
-    
+
+* For other signals you want to measure, follow the steps above except just *Zoom Into* the signal that you are measuring instead of the 30 MHz calibration signal.
 * Note: In general, it should be noted, when you have spanned in to 2 kHz (as per the step above), and you see that your signal under test is *moving around* either in Frequncy or Ampplitude you will not be able to make a very good phase noise measurement. Phase Noise Measurements require that the Signal Under Test be stable.
