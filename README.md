@@ -2,7 +2,7 @@
 
 ## tinySA Ultra HW/SWW Requirements  
 Tested on tinySA Ultra,
-* HW Version: V0.4.5.1.1
+* HW Version: V0.4.5.1.1 (184)
 * SW Version: tinySA4_v1.4-156-g4eb315d (Feb 27, 2024)
 ## Introduction
 The tinySA Ultra ( https://www.tinysa.org/wiki/ ) actually works enough like a regular spectrum analyzer that I decided to write a SSB Phase Noise Measurement Application for it in Python. This implementation is based on some excellent old Hewlett-Packard Application Notes especially AN270-2 [1].  
