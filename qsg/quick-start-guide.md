@@ -3,14 +3,14 @@ This guide will show you the steps to make a Phase Noise Measurement of the inte
 **Steps:**  
 * Disconnect all signals from the tinySA Ultra.
 * Turn on the tinySA Ultra.  
-* From the screen menu select: *Preset -> Load Startup* The screen should look like the figure below. 0-800 Mhz sweep and the marker radmomly moving around finding the peaks in the noise floor.
+* From the screen menu select: *Preset -> Load Startup* The screen should look like the figure below. 0-800 Mhz sweep and the marker randomly moving around finding the peaks in the noise floor.
     
 ![screen0](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/0.bmp)  
 
   
-* Using a sma-sma cable, connect the CAL connector to the RF connector.  
-* From the screen manu select *Mode -> Calibration Output -> 30 MHz*.
-* From the screen manu select *Spectrum Analyzer*. The screen should look like the figure below. The marker must be on the 30 MHz peak automatically. If the marker is not on the 30 MHz peak, then reset the markers to the default setting (this should have happened when the *Preset -> Load Startup* step was done.
+* Using a SMA-SMA cable, connect the CAL connector on the tinySA Ultra to the RF connector.  
+* From the screen menu select *Mode -> Calibration Output -> 30 MHz*.
+* From the screen menu select *Spectrum Analyzer*. The screen should look like the figure below. The marker must be on the 30 MHz peak automatically. If the marker is not on the 30 MHz peak, then reset the markers to the default setting (this should have happened when the *Preset -> Load Startup* step was done.
 
 ![screen1](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/1.bmp)  
 
