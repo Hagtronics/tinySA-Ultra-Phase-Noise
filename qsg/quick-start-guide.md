@@ -20,7 +20,7 @@ This guide will show you the steps to make a Phase Noise Measurement of the inte
 ![screen2](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/2.bmp)  
   
   
-* From the screen menu select *Frequency -> Span" and type in *2 k* for 2 kHz span. The screen should look like the figure below, again with the marker on (or close to) the 30 MHz peak.
+* From the screen menu select *Frequency -> Span" and type in *2 k* for 2 kHz span. The screen should look like the figure below, again with the marker on (or close to) the 30 MHz peak. The marker finds the maximum signal on the screen from the *left* side of the screen. Below you can see that there was a bit of noise a few tens or hundredths of a Hz to the left of the actual center frequency. This is close enough to the actual frequency and won't affect the measurement.
 
 ![screen3](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/3.bmp)  
 
@@ -31,5 +31,5 @@ This guide will show you the steps to make a Phase Noise Measurement of the inte
 ![final](https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/docs/pn_figure4.PNG)
 
 
-* For other signals you want to measure, follow the steps above except just *Zoom Into* the signal that you are measuring instead of the 30 MHz calibration signal.
-* Note: In general, it should be noted, when you have spanned in to 2 kHz (as per the step above), and you see that your signal under test is *moving around* either in Frequncy or Amplitude you will not be able to make a very good phase noise measurement. Phase Noise Measurements require that the Signal Under Test be stable especially since the Phase Noise App takes many minurtes to complete a full measurement. You can correct for some *slight shift* in the signal under test center frequency by checking the *Recenter Center Frequency After Each Sweep* check box on the GUI. 
+* For other signals you want to measure, follow the steps above except just *Zoom Into*, on the signal that you are measuring instead of the 30 MHz calibration signal.
+* Note: In general, it should be noted, when you have spanned in to 2 kHz (as per the step above), and you see that your signal under test is *moving around* either in Frequncy or Amplitude you will not be able to make a very good Phase Noise Measurement. Phase Noise Measurements require that the Signal Under Test be stable especially since the Phase Noise App takes many minurtes to complete a full measurement. You can correct for some *slight shift* in the signal under test center frequency by checking the *Recenter Center Frequency After Each Sweep* check box on the GUI. 
