@@ -31,7 +31,7 @@ import time
 import threading
 import numpy as np
 import matplotlib.pyplot as plt
-import PySimpleGUI as sg
+import FreeSimpleGUI as sg
 import savitzky_golay_filter as sgf
 import phase_noise
 

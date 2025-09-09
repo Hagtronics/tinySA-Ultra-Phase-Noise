@@ -32,7 +32,7 @@ import time
 import serial
 from serial.tools import list_ports
 import numpy as np
-import PySimpleGUI as ps
+import FreeSimpleGUI as ps
 
 # tinySA Ultra USB Identifiers
 VID = 0x0483  # 1155
