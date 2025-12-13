@@ -98,12 +98,12 @@ Libraries used,
   * numpy==1.26.2
   * matplotlib==3.8.2
 ## References
-[1] https://www.hpmemoryproject.org/technics/bench/3048/bench_pn_docs.htm
-[2] Python code compiled with: pyinstaller
-[3] https://www.edn.com/measuring-small-signals-accurately-a-practical-guide
+[1] https://www.hpmemoryproject.org/technics/bench/3048/bench_pn_docs.htm  
+[2] Python code compiled with: pyinstaller  
+[3] https://www.edn.com/measuring-small-signals-accurately-a-practical-guide  
 ## Special Thanks To
 * Eric for designing the tinySA Ultra
 * Guido for inventing Python.
 * Hewlett-Packard Company (Pre 1999) for teaching me all things RF.
-* PySimpleGUI for making the best 'Quick GUI' application in Python.
+* PySimpleGUI for making the best 'Quick GUI' application in Python - FreeSimpleGui for continuing the Open Source Branch.
 * Note: As of 2025 PySimpleGUI is no longer Open-Source. I have modified the program to run FreeSimpleGUI instead. See the requirements.txt for more information. The compiled exe did not need to be changed because it contains the last open-source version of PySimpleGUI embedded in it.
