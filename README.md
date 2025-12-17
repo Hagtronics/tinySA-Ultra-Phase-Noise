@@ -34,10 +34,12 @@ If you are allergic to 'Pythons' you can use the compiled [2] windows EXE of the
 ## Usage
    Also see the step-by-step quick-start-guide here,
    https://github.com/Hagtronics/tinySA-Ultra-Phase-Noise/blob/main/qsg/quick-start-guide.md
+   
+   Preset the tinySA Ultra and make sure it it in Auto Attenuate mode.  
+     
+   Your measured signal level should be < 0 dBm and > -30 dBm for the best dynamic range.  
 
-   Your measured signal level should be < 0 dBm and > -30 dBm for the best dynamic range.
-
-   Power on tinySA Ultra and connect it to your PC.
+   Power on tinySA Ultra and connect it to your PC.  
 
    Use the menu item 'Preset' -> 'Load Startup' to preset the tinySA Ultra. Note: The marker must be in the mode where it 'follows' the peak displayed signal.
 
